@@ -21,13 +21,13 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-##Информация по установке моего проекта
+##РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ СѓСЃС‚Р°РЅРѕРІРєРµ РјРѕРµРіРѕ РїСЂРѕРµРєС‚Р°
 - cd domains
 - git clone https://github.com/Ekaterina-pixel/etnostyle.git
 - cd etnostyle
 - composer self-update
 - composer install
-- Скопировать .env.example и превратить его в .env
+- РЎРєРѕРїРёСЂРѕРІР°С‚СЊ .env.example Рё РїСЂРµРІСЂР°С‚РёС‚СЊ РµРіРѕ РІ .env
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
