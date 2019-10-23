@@ -1,0 +1,126 @@
+body{
+	font-family:Arial, sans-serif, Helvetica;
+	font-size:18px;
+}
+
+#header {
+	 width:100%;
+	 height:40px;
+	 margin-top:50px;
+	 margin-left:20%;
+	 padding-top:5px;
+}
+
+.ssylki {
+	 float:right; 
+}
+
+.ssylki a {
+		 text-decoration:none;
+		 color:#000000;
+	 }
+
+.ssylki a:hover {
+		 color:#00bae3;
+	 }
+
+.etno {
+	 position:relative;
+	 width:50%;
+	 margin-top:-30px;
+}
+
+#body {
+	 font-size:30px;
+	 margin-left:20%;
+}
+
+.onas {
+	 width:320px;
+	 padding:10px 0px 10px 0px;
+	 background: url(img/piguraz.png) no-repeat center;
+}
+
+.dobro {
+	 width:50%;
+	 margin-left:10%;
+	 margin-top:100px;
+}
+.dobro p {
+	 font-weight:bold;
+}
+
+.kit {
+	 width:70%;
+     position:relative;
+	 margin-left:50%;
+	 margin-top:-350px;
+}
+
+#footer {
+	 background:#353535;
+	 width:1920px;
+	 height:140px;
+}
+
+.img {
+	 width:20%;
+	 position:absolute;
+	 margin-left:20%;
+	 padding-top:60px;
+}
+
+.flex {
+	 width:15%;
+	 display:flex;
+	 margin-left:69%;
+	 padding-top:45px;
+}
+
+.rollover a {
+		 background: url(img/vkwhite.png);
+		 display:block;
+		 width:55px;
+		 height:54px;
+}
+	 
+.rollover a:hover {
+		 background: url(img/vk.png);
+		 background-position:center;
+}
+	 
+.rollover1 a {
+		 background: url(img/viberwhite.png);
+		 display:block;
+		 width:55px;
+		 height:54px;
+}
+	 
+.rollover1 a:hover {
+		 background: url(img/viber.png);
+		 background-position:center;
+}
+	 
+.rollover2 a {
+		 background: url(img/telegrammwhite.png);
+		 display:block;
+		 width:55px;
+		 height:54px;
+}
+	 
+.rollover2 a:hover {
+		 background: url(img/telegramm.png);
+		 background-position:center;
+}
+
+.rollover3 a {
+		 background: url(img/facebookwhite.png);
+		 display:block;
+		 width:55px;
+		 height:54px;
+}
+	 
+.rollover3 a:hover {
+		 background: url(img/facebook.png);
+		 background-position:center;
+}
