@@ -1,8 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.default')
 
 @section('content')
-<h2>{{$url}} </h2>
+<h2>{{isset($obj->name)?$obj->name:'404'}}</h2>
 <div>
-     Текст
+{!! $obj->body !!}
 </div>
 @endsection

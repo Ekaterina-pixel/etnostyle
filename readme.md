@@ -21,7 +21,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-##Информация по установке моего проекта
+## Информация по установке моего проекта
 - cd domains
 - git clone https://github.com/Ekaterina-pixel/etnostyle.git
 - cd etnostyle
