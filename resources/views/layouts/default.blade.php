@@ -5,7 +5,8 @@
 		 <title>Etnostyle</title>
 		 <meta name="description" content="Заказ этноодежды-заказ этноаксессуаров">
 		 <meta name="keywords" content="Этноодежда, этностайл, бесплатная доставка"> 
-	     <link rel="stylesheet" type="text/css" href="media/style.css">
+	     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		 <link rel="stylesheet" type="text/css" href="media/style.css">
      </head>
 
 	 <body>
@@ -22,11 +23,9 @@
 			 </div>
 		 </div>
 		 
-		 <div class="poloska">
-		     <p><img src="media/img/figura.png"></p>
-		 </div>
+		
 		 
-		 <div id="body">
+		 <div id="bodys">
          @yield('content')
 		 </div>
 		 
@@ -41,5 +40,7 @@
 			         <div class="rollover3"><a href="#"></a></div>
 			 </div>
 		 </div>
+		 @section('scripts')
+		 @show
      </body>
 </html>
