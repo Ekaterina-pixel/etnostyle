@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3307
--- Время создания: Ноя 13 2019 г., 21:36
+-- Время создания: Ноя 18 2019 г., 21:13
 -- Версия сервера: 8.0.12
 -- Версия PHP: 7.2.10
 
@@ -149,7 +149,12 @@ CREATE TABLE `products` (
 INSERT INTO `products` (`id`, `name`, `price`, `body`, `small_body`, `showhide`, `category_id`, `picture`, `user_id`, `status`, `created_at`, `updated_at`) VALUES
 (1, 'Одежда этническая', NULL, 'Платье с коротким рукавом', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-13 14:35:51', '2019-11-13 14:35:51'),
 (2, 'Одежда этническая', NULL, 'uyfuyjhbjhcff', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-13 14:37:24', '2019-11-13 14:37:24'),
-(3, 'j', NULL, '<p>j</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-13 18:11:48', '2019-11-13 18:11:48');
+(3, 'j', NULL, '<p>j</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-13 18:11:48', '2019-11-13 18:11:48'),
+(4, 'j', NULL, '<p>Шестяное пальто длинное</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:47:42', '2019-11-18 17:47:42'),
+(5, 'Оjhbvjhb', NULL, '<p>nbv jhb jkhvjhg</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:49:06', '2019-11-18 17:49:06'),
+(6, 'Одежда этническая', NULL, '<p>hgfikhbuyfjkubutygfjklunbui</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:49:51', '2019-11-18 17:49:51'),
+(7, '45', NULL, '<p>iopip poi poi poi pip</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:53:08', '2019-11-18 17:53:08'),
+(8, '45', NULL, '<p>tyjuyjk tyijtyij tyijuyk</p>', NULL, '1', NULL, '19_11_18_09_10_57.jpg', NULL, NULL, '2019-11-18 18:10:57', '2019-11-18 18:10:57');
 
 -- --------------------------------------------------------
 
@@ -254,7 +259,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT для таблицы `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT для таблицы `users`

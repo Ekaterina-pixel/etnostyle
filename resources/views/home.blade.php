@@ -14,7 +14,7 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-<form class="was-validated" action="{{asset('home')}}" method="post">
+<form class="was-validated" action="{{asset('home')}}" method="post" enctype="multipart/form-data">
 	{!!csrf_field()!!}
   <div class="form-group">
     <label for="name">Название товара</label>
@@ -49,6 +49,12 @@
     </span>
 	@enderror
   </div>
+  
+  <div class="custom-file">
+  <input type="file" name="picture1" class="custom-file-input" id="picture1">
+  <label class="custom-file-label" for="picture1">Выберите изображение...</label>
+  </div>
+  
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
                 </div>
