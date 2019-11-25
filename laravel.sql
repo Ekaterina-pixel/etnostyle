@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3307
--- Время создания: Ноя 18 2019 г., 21:13
+-- Время создания: Ноя 25 2019 г., 21:15
 -- Версия сервера: 8.0.12
 -- Версия PHP: 7.2.10
 
@@ -154,7 +154,13 @@ INSERT INTO `products` (`id`, `name`, `price`, `body`, `small_body`, `showhide`,
 (5, 'Оjhbvjhb', NULL, '<p>nbv jhb jkhvjhg</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:49:06', '2019-11-18 17:49:06'),
 (6, 'Одежда этническая', NULL, '<p>hgfikhbuyfjkubutygfjklunbui</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:49:51', '2019-11-18 17:49:51'),
 (7, '45', NULL, '<p>iopip poi poi poi pip</p>', NULL, '1', NULL, NULL, NULL, NULL, '2019-11-18 17:53:08', '2019-11-18 17:53:08'),
-(8, '45', NULL, '<p>tyjuyjk tyijtyij tyijuyk</p>', NULL, '1', NULL, '19_11_18_09_10_57.jpg', NULL, NULL, '2019-11-18 18:10:57', '2019-11-18 18:10:57');
+(8, '45', NULL, '<p>tyjuyjk tyijtyij tyijuyk</p>', NULL, '1', NULL, '19_11_18_09_10_57.jpg', NULL, NULL, '2019-11-18 18:10:57', '2019-11-18 18:10:57'),
+(9, '45', NULL, '<p>dth erhgrt ergreg</p>', NULL, '1', NULL, '', 1, NULL, '2019-11-25 17:21:29', '2019-11-25 17:21:29'),
+(10, '67', NULL, '<p>ti7 crtjutu6 rtuyr6tu</p>', NULL, '1', NULL, '19_11_25_08_24_28.jpg', 1, NULL, '2019-11-25 17:24:28', '2019-11-25 17:24:28'),
+(11, '79', NULL, '<p>tfiju7i rju rtuj</p>', NULL, '1', NULL, '19_11_25_08_26_44.jpg', 1, NULL, '2019-11-25 17:26:44', '2019-11-25 17:26:44'),
+(12, 'Одежда этническая', '90', '<p>e5y55 erty5y e5ry55</p>', NULL, '1', NULL, '19_11_25_08_35_48.jpg', 1, NULL, '2019-11-25 17:35:48', '2019-11-25 17:35:48'),
+(13, 'одежда', '100', '<p>уцке5е ук5ен5н куерн6кен</p>', NULL, '1', NULL, '19_11_25_08_36_40.jpg', 1, NULL, '2019-11-25 17:36:40', '2019-11-25 17:36:40'),
+(14, 'одежда', '76', '<p>уе5 куенп у5кен</p>', NULL, '1', NULL, '19_11_25_08_37_03.jpg', 1, NULL, '2019-11-25 17:37:04', '2019-11-25 17:37:04');
 
 -- --------------------------------------------------------
 
@@ -259,7 +265,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT для таблицы `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT для таблицы `users`

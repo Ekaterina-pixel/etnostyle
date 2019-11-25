@@ -26,7 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         $cats = Category::all();
-		return view('home', compact('cats'));
+		$products = Product::where('user_id', Auth::user()->id)->orderBy('id', 'DESC')->paginate('2');
+		return view('home', compact('cats', 'products'));
     }
 	
 	public function postIndex(ProductRequest $r)
