@@ -11,16 +11,17 @@
 
 	 <body>
 	     <div id="header" >
+		  <div class="etno">
+			 <a href="home"><img src="media/img/etnostyle.png"></a>
+			 </div>
 		     <div class="ssylki">
 	             <a href="{{asset('about')}}">О НАС</a> &nbsp &nbsp &nbsp
-		         <a href="#">КАТАЛОГ</a> &nbsp &nbsp &nbsp
+		         <a href="{{asset('catalog')}}"">КАТАЛОГ</a> &nbsp &nbsp &nbsp
 		         <a href="#">ДОСТАВКА</a> &nbsp &nbsp &nbsp
 		         <a href="{{asset('comments')}}">ОТЗЫВЫ</a> &nbsp &nbsp &nbsp
 		         <a href="{{asset('contact')}}">КОНТАКТЫ</a>
 			 </div>
-		     <div class="etno">
-			 <a href="#"><img src="media/img/etnostyle.png"></a>
-			 </div>
+		    
 		 </div>
 		 
 		
