@@ -10,4 +10,8 @@ class CatalogController extends Controller
 		 $objs = Category::all();
 		 return view ('category', compact('objs'));
 	}
+	public function getCategory($id=null){
+		 $obj = Category::find($id);
+		 return view ('products', compact('obj'));
+	}
 }

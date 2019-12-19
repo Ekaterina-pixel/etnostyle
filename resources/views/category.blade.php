@@ -15,7 +15,7 @@
      </tr>
 	 @foreach($objs as $one)
 	 <tr>
-		 <td>{{$one->name}}</td>
+		 <td><a href="{{asset('category/'.$one->id)}}">{{$one->name}}</a></td>
 	 </tr>
 	 @endforeach
 </table>
