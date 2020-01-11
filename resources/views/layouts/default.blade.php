@@ -13,16 +13,38 @@
      </head>
 
 	 <body>
+<li class="dropdown open">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <img id="imgNavSel" src="{{(isset($_COOKIE['lang']))?'/lang/'.$_COOKIE['lang'].'.jpg':'ru.jpg'}}" alt="..." class="img-thumbnail icon-small">&nbsp;&nbsp;
+                            <span id="lanNavSel">
+							{{(isset($_COOKIE['lang']))?$_COOKIE['lang']:'ru'}}
+							</span> 
+							<span class="caret"></span></a>
+                        <ul class="dropdown-menu mumu" role="menu">
+                            <li><a id="navFra" href="/?lang=fr" class="language">
+                                    <img id="imgNavFra" src="{{asset('lang/fr.jpg')}}" alt="France" class="img-thumbnail icon-small">&nbsp;
+                                    <span id="lanNavFra">Française</span>&nbsp;
+                                </a></li>
+                            <li><a id="navEng" href="/?lang=en" class="language">
+                                    <img id="imgNavEng" src="{{asset('lang/en.jpg')}}" alt="English" class="img-thumbnail icon-small">&nbsp;
+                                    <span id="lanNavEng">English</span>&nbsp;
+                                </a></li>
+                            <li><a id="navRus" href="/?lang=ru" class="language">
+                                    <img id="imgNavRus" src="{{asset('lang/ru.jpg')}}" alt="Russia" class="img-thumbnail icon-small">&nbsp;
+                                    <span id="lanNavRus">Русский</span>&nbsp;
+                                </a></li>
+                        </ul>
+</li>
 	     <div id="header" >
 		  <div class="etno">
 			 <a href="{{asset('home')}}"><img src="{{asset('media/img/etnostyle.png')}}"></a>
 			 </div>
 		     <div class="ssylki">
-	             <a href="{{asset('about')}}">О НАС</a> &nbsp &nbsp &nbsp
-		         <a href="{{asset('catalog')}}"">КАТАЛОГ</a> &nbsp &nbsp &nbsp
-		         <a href="#">ДОСТАВКА</a> &nbsp &nbsp &nbsp
-		         <a href="{{asset('comments')}}">ОТЗЫВЫ</a> &nbsp &nbsp &nbsp
-		         <a href="{{asset('contact')}}">КОНТАКТЫ</a>
+	             <a href="{{asset('about')}}">@lang('base.about')</a> &nbsp &nbsp &nbsp
+		         <a href="{{asset('catalog')}}">@lang('base.catalog')</a> &nbsp &nbsp &nbsp
+		         <a href="#">@lang('base.delivery')</a> &nbsp &nbsp &nbsp
+		         <a href="{{asset('comments')}}">@lang('base.reviews')</a> &nbsp &nbsp &nbsp
+		         <a href="{{asset('contact')}}">@lang('base.contacts')</a>
 			 </div>
 		    
 		 </div>
